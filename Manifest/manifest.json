@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.6",
+  "version": "1.10.0",
+  "id": "f6ca4e1a-3c0f-496d-8369-14b43c20d1ed",
+  "packageName": "com.teams.crmcsteambot",
+  "developer": {
+    "name": "Scottish Summit 2021 Example",
+    "websiteUrl": "https://scottishsummit.com/",
+    "privacyUrl": "https://www.teams.com/privacy",
+    "termsOfUseUrl": "https://www.teams.com/termsofuser"
+  },
+  "icons": {
+    "outline": "Icon-32x32.png",
+    "color": "Icon-192x192.png"
+  },
+  "name": {
+    "short": "SSO",
+    "full": "Scottish Summit Bot"
+  },
+  "description": {
+    "short": "Example Teams Bot to integrate Power Apps and Power Automate through Chat",
+    "full": "Example Teams Bot to integrate Power Apps and Power Automate through Chat"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "f6ca4e1a-3c0f-496d-8369-14b43c20d1ed",
+      "needsChannelSelector": false,
+      "scopes": [
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false,
+      "commandLists": [
+        {
+          "scopes": [
+            "team"
+          ],
+          "commands": [
+            {
+              "title": "example",
+              "description": "An Example Command to get started with!"
+            },
+            {
+              "title": "Who am I",
+              "description": "Tells you who you are"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}

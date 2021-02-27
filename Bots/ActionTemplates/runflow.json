@@ -1,0 +1,8 @@
+{
+  "TeamId": "{TeamId}",
+  "ChannelId": "{ChannelId}",
+  "ConversationId": "{ConversationId}",
+  "UserId": "{UserId}",
+  "Content": "{Content}",
+  "Description": "{Description}"
+}
